@@ -1,0 +1,25 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "pokedex criada no bootcamp da dio com javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marimariaah/pokedex-js.git"
+  },
+  "keywords": [
+    "pokedex"
+  ],
+  "author": "maria eduarda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marimariaah/pokedex-js/issues"
+  },
+  "homepage": "https://github.com/Marimariaah/pokedex-js#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

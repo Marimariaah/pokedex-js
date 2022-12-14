@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Normalize CSS-->
+    <link
+      rel="stylesheet"
+      href="./node_modules/normalize.css/normalize.css"
+    />
+    <!--Font Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <!--GLOBAL.CSS-->
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <!--POKEDEX.CSS-->
+    <link rel="stylesheet" href="./assets/css/pokedex.css">  
+
+    <title>Pokédex</title>
+
+  </head>
+  <body>
+    <section class="content">
+      <h1>Pokédex</h1>
+      <ol id="pokemonList" class="pokemons">
+        
+        </ol>
+        <div class="pagination">
+          <button id="loadmorebtn" type="button" class="button">Carregar mais pokemons...</button>
+        </div>
+    </section>
+    <script src="./assets/js/pokemodel.js"></script>
+    <script src="./assets/js/pokeapi.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+  
+</html>
+<!--para startar através do terminal, usar o comando 'http-server ./' no node*/
